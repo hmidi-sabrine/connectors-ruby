@@ -1,12 +1,11 @@
 # general metadata
-version: "CHANGEME"
+
 repository: "git@github.com:elastic/connectors-ruby.git"
 revision: "main"
 
-elasticsearch:
-#  cloud_id: CHANGEME
-  hosts: http://localhost:9200
-  api_key: "CHANGEME"
+elasticsearch: 
+  cloud_id: "My_deployment:dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvOjQ0MyRlZjgzMTI5OTA3N2E0ODhjYjYxZTY3NDM4ZWViMDM0NyRlNGNlMTgzMDM4MzI0NGI3YmZiYWE0YjNmODIyNmFiYQ=="
+  api_key: "b0RLX0VZTUJObUwxcDRuS3RTVGQ6WndtLW05TTFRVE8teU9mOWFIa0ZYdw=="
   disable_warnings: true
   trace: false
   log: false
@@ -15,6 +14,6 @@ log_level: info
 
 idle_timeout: 60
 
-connector_id: "CHANGEME"
-service_type: "CHANGEME"
+connector_id: "Vr29EYMBMosvNdMwxouE"
+
 
